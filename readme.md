@@ -44,9 +44,3 @@ fun apply(t: Message<HelloRequest>): HelloResponse {
 }
 ```
  
-
-### AWS Java SDK
-If you need to use the AWS Java SDK in your functions, you can use the Bill-of-Materials
-(BOM) provided in the gradle file. When adding a library, such as _S3_, you just add
-`compile 'com.amazonaws:aws-java-sdk-s3'` to the dependecies and it will ensure all
-your libraries are at the correct version.

@@ -104,5 +104,5 @@ dependencyManagement {
 }
 
 task deploy(type: Exec, dependsOn: assemble) {
-    commandLine 'serverless', 'deploy', '--aws-profile', 'logrdirect'
+    commandLine 'serverless', 'deploy'
 }
